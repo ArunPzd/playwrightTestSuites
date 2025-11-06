@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1115","test valid scenarios","","Thu Nov 06 18:23:02 IST 2025","passed","Thu Nov 06 18:23:04 IST 2025","","login.spec.ts","",""
+"","1866","test login page title","","Thu Nov 06 18:23:00 IST 2025","passed","Thu Nov 06 18:23:02 IST 2025","","login.spec.ts","",""
+"","2","test valid and invalid scenarios","","Thu Nov 06 18:16:38 IST 2025","skipped","Thu Nov 06 18:16:38 IST 2025","","login.spec.ts","",""
+"","891","test invalid scenarios","","Thu Nov 06 18:23:04 IST 2025","passed","Thu Nov 06 18:23:04 IST 2025","","login.spec.ts","",""

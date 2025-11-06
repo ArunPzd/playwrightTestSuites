@@ -12,10 +12,14 @@ test('test login page title',async({page})=> {
 
 });
 
-test('test valid and invalid scenarios', async({page}) => {
+test('test valid scenarios', async({page}) => {
     const loginPage = new LoginPage(page);
     await loginPage.login(testData.validUser.username,testData.validUser.password);
     await expect(page).toHaveURL(/.inventory.html/);
+});
 
-
+test('test invalid scenarios', async({page}) => {
+    const loginPage = new LoginPage(page);
+    await loginPage.login(testData.invalidUser.username,testData.invalidUser.password);
+    await expect(page.locator('[data-test="error"]')).toContainText('Username and password do not match');
 });
